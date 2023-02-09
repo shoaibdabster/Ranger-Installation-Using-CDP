@@ -74,7 +74,12 @@ FLUSH PRIVILEGES;
 
 ![23d8273a-c030-4a73-a848-e4dbf0b9ad1b](https://user-images.githubusercontent.com/124764525/217615623-7e890eb0-510f-4399-92af-e984189b11f9.jpg)
 
-#### 5)Review Changes --> Continue
+#### 5)Review Changes --> Continue (Set Passwords in all 4 fields)
+
+![456529e9-43cf-4f7a-a868-18f6d8eb81b4](https://user-images.githubusercontent.com/124764525/217813975-786fabf8-3f23-415d-943d-4896dac1ff91.jpg)
+
+#### 5)Command Details --> Continue
+
 ![1f3200e6-fa3a-43d3-b724-3e5c367c3d3b](https://user-images.githubusercontent.com/124764525/217615734-345d2289-2ee0-4bde-9d3f-91d5894f5b11.jpg)
 
 #### 6) Click Finish to deploy 
