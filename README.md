@@ -38,9 +38,9 @@ mysql -u root -p
 #### 6)Run the following commands to create the Ranger Database and User & Grant this new user with required permissions.
 ```
 CREATE DATABASE rangerdb;
-CREATE USER 'rangeradmin'@'%' IDENTIFIED BY 'Cloudera123'; 
-CREATE USER 'rangeradmin'@'localhost' IDENTIFIED BY 'Cloudera123';
-CREATE USER 'rangeradmin'@'<Ranger Admin Role hostname>' IDENTIFIED BY 'Cloudera123';
+CREATE USER 'rangeradmin'@'%' IDENTIFIED BY 'Cloudera@123'; 
+CREATE USER 'rangeradmin'@'localhost' IDENTIFIED BY 'Cloudera@123';
+CREATE USER 'rangeradmin'@'<Ranger Admin Role hostname>' IDENTIFIED BY 'Cloudera@123';
 GRANT ALL PRIVILEGES ON rangerdb.*  TO 'rangeradmin'@'%';
 GRANT ALL PRIVILEGES ON rangerdb.* TO 'rangeradmin'@'localhost';
 GRANT ALL PRIVILEGES ON rangerdb.* TO 'rangeradmin'@'<Ranger Admin Role hostname>';
@@ -75,6 +75,8 @@ FLUSH PRIVILEGES;
 ![23d8273a-c030-4a73-a848-e4dbf0b9ad1b](https://user-images.githubusercontent.com/124764525/217615623-7e890eb0-510f-4399-92af-e984189b11f9.jpg)
 
 #### 5)Review Changes --> Continue (Set Passwords in all 4 fields)
+
+Note: This password will be used during Ranger UI login (Capital letter+Special Char+Number eg: Admin@1234)
 
 ![456529e9-43cf-4f7a-a868-18f6d8eb81b4](https://user-images.githubusercontent.com/124764525/217813975-786fabf8-3f23-415d-943d-4896dac1ff91.jpg)
 
